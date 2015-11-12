@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/vendor/modernizr.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-
   </head>
   <body>
 
@@ -64,43 +60,15 @@
 
 <section class="app row">
 
-<div class="input">
-<h4><a href="http://vitvop.com">VitVop</a> Version 0.1</h4>
-
-</div>
-
-
-<div class="input-app large-6 column">
-  
-<h3>Input.</h3>
-<div class="record"></div>
-
-<p class="input-paragraph">
- 
-
+<h2>Support VitVop </h2>
+<h4>Code, Use, Extend, Contribute</h4>
 <ul>
   
-  <li>Click the Mic Icon to start</li>
-<li>Check the list of <a href="commands.html">commands</a> supported.</li>
-<li>Click the Mic Icon again, to stop.</li>
 
+<li>Fork this project at github</li>
+<li>Send us a tweet using the hashtag #vitVop for sugesstion/ review </li>
 
 </ul>
-
-
-</p>
-</div>
-
-
-<div class="output-app large-6 column">
-  
-  <h3>Generated Code</h2>
-
-
-<textarea class="output-paragraph"></textarea>
-
-
-</div>
 
 </section>
 
@@ -122,9 +90,34 @@
 
 
     <div class="think-ten"></div>
-    <script src="js/foundation.min.js"></script>
- <script src="js/vitvop.js"></script>
 
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/annyang.min.js"></script>
+<script>
+
+
+// if (annyang) {
+//   // Let's define our first command. First the text we expect, and then the function it should call
+//   var commands = {
+//     'slash': function() {
+//       $('.output-paragraph').animate({bottom: '-100px'});
+//     },
+//     'stop': function () {
+
+//       $('.output-paragraph').html('exit');
+//     }
+//   };
+
+//   // Add our commands to annyang
+//   annyang.addCommands(commands);
+
+//   // Start listening. You can call this here, or attach this call to an event, button, etc.
+//   annyang.start();
+// }
+
+
+</script>
 
 
 

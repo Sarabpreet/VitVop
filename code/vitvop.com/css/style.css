@@ -1,0 +1,149 @@
+.think-ten {
+  background-image: url('../img/margin-vop.jpg');
+  display:block;
+  background-repeat: repeat-x;
+  height:9px;
+}
+
+.wrap {
+	background: #f9f9f9;
+	padding: 30px;
+}
+
+.logo{
+
+	background-image: url('../img/logo-vop.png');
+	background-repeat: no-repeat;
+	display:block;
+	width:183px;
+	height:33px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+.tagline {
+
+	margin: 0 auto;
+	text-align: center;
+	margin-top:20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+nav {
+text-align: center;
+margin:20px 0px;
+border-bottom: solid thin black; 
+
+}
+nav ul li {
+
+	display: inline-block;
+
+
+}
+
+nav ul li a {
+
+
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 960px;
+	margin: 0 auto;
+	color: #777777;
+	padding-left:20px;
+}
+
+
+nav ul li a:hover {
+
+	text-decoration: underline;
+	color: #181818;
+
+}
+.big-tag {
+
+	border-bottom: solid thin black;
+}
+
+.big-tag p{
+
+font-size:20px;
+text-align:center;
+text-transform: uppercase;
+letter-spacing: 10px;
+
+}
+.app {
+
+	padding-top:20px;
+	margin:60px auto;
+/*	background-image: url("../img/result-bg.jpg");*/
+}
+
+.record {
+	background-image: url('../img/record.png');
+	display:block;
+	width:52px;
+	height:96px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.record:hover {
+
+background-image: url('../img/record-hover.png');
+cursor: pointer;
+}
+.record-active {
+
+background-image: url('../img/record-active.png');
+cursor: pointer;
+
+}
+
+.record-active:hover {
+
+	background-image: url('../img/record-active-hover.png');
+	cursor: pointer;
+}
+
+.input h4 {
+
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin:30px auto;
+	text-decoration: underline;
+}
+
+.banner-footer {
+
+
+	
+	background-color: #0dbc3a;
+    margin: auto -42px;
+	color:#ffffff;
+	padding: 50px;
+	display: block;
+	clear:both;
+	overflow: hidden;
+	margin-top: 50px;
+}
+
+.banner-footer h1 {
+
+	color:white;
+}
+
+.banner-footer p {
+
+	float:right;
+	margin-top: 50px;
+	display: block;
+}
+.output-paragraph {
+
+	width:500px;
+	height:300px;
+	font-size:20px;
+}
